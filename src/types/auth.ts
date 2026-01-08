@@ -1,5 +1,6 @@
 export interface User {
   role: string;
+  email?: string;
 }
 
 export interface LoginResponse {
