@@ -1,0 +1,100 @@
+/* Apresentação */
+.event-presentation {
+  background-color: #0B2C4D;
+  border-color: #1e88e5;
+  color: #fff;
+}
+
+/* Indisponibilidade */
+.event-unavailability {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+  color: #fff;
+}
+
+/* Reserva */
+.event-reservation {
+  background-color: #f9a825;
+  border-color: #f9a825;
+  color: #000;
+}
+
+/* Fallback */
+.event-default {
+  background-color: #616161;
+  border-color: #616161;
+  color: #fff;
+}
+
+.fc .fc-button {
+  padding: 4px 8px;
+  font-size: 0.75rem;
+}
+
+.fc .fc-button .fc-icon {
+  font-size: 0.9rem;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.fc .fc-col-header-cell-cushion {
+  font-size: 0.75rem;
+}
+
+.fc .fc-daygrid-day-number {
+  font-size: 0.75rem;
+}
+
+.fc .fc-event-title {
+  font-size: 0.7rem;
+}
+
+.fc .fc-daygrid-event {
+  padding: 0 2px;
+}
+
+.fc-daygrid-event .fc-event-title {
+  font-size: 0.65rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fc-daygrid-event .fc-event-title {
+  white-space: normal;       /* 🔥 permite quebra */
+  overflow: visible;         /* mostra tudo */
+  text-overflow: unset;      /* remove "..." */
+  line-height: 1.2;
+}
+
+.fc-daygrid-event .fc-event-time {
+  font-size: 0.65rem;
+}
+
+.fc-daygrid-event {
+  padding: 1px 2px;
+}
+
+.fc-daygrid-event-harness {
+  margin-bottom: 2px;
+}
+
+.fc-daygrid-event-dot {
+  display: none !important;
+}
+
+.fc-tooltip {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

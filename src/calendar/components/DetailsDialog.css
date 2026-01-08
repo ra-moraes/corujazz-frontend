@@ -1,0 +1,44 @@
+/* Labels SEMPRE em negrito */
+.label {
+  font-weight: 600;
+}
+
+/* Valores NUNCA em negrito */
+.value {
+  font-weight: 400;
+}
+
+/* Títulos de seção */
+.section-title {
+  font-size: 0.95rem;
+}
+
+/* Itens internos */
+.section-item {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/* Compactação do accordion */
+.MuiAccordionSummary-root {
+  min-height: 40px;
+  padding: 0 12px;
+}
+
+.MuiAccordionSummary-content {
+  margin: 6px 0;
+}
+
+.MuiAccordionDetails-root {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+.MuiAccordion-root {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.MuiAccordion-root::before {
+  display: none;
+}

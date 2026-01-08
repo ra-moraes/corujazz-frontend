@@ -1,0 +1,7 @@
+/* Header do dialog */
+.presentation-dialog-title {
+  background-color: #0b2c4d;
+  color: #fff;
+  border-bottom: 1px solid #1e88e5;
+  text-align: center;
+}
